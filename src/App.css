@@ -1,1 +1,9 @@
+footer {
+  text-align: center;
+  margin: 100px 0;
+}
 
+.App-container {
+  margin: 30px;
+  font-family: uchen;
+}

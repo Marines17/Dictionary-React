@@ -1,0 +1,52 @@
+.Dictionary {
+  background-color: #f0e2cc;
+  width: 897px;
+  height: 492px;
+  border-radius: 47px;
+  padding-top: 100px;
+  margin: 0 auto;
+  margin-top: 127px;
+  box-shadow: 70px 70px 0px #f0e2cc79;
+}
+
+h1 {
+  font-size: 110px;
+  opacity: 59%;
+  padding-left: 70px;
+  border-right: solid 4px #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: animated-text 4s steps(29, end) 1s 1 normal both,
+    animated-cursor 600ms steps(29, end) infinite;
+}
+
+input {
+  margin-top: 25px;
+  margin-left: 71px;
+  background: rgba(196, 196, 196, 0.77);
+  border: none;
+  border-radius: 28px;
+  width: 458px;
+  height: 59px;
+  padding-left: 20px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+@keyframes animated-text {
+  from {
+    width: 0;
+  }
+  to {
+    width: 580px;
+  }
+}
+
+@keyframes animated-cursor {
+  from {
+    border-right-color: #000000;
+  }
+  to {
+    border-right-color: transparent;
+  }
+}

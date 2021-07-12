@@ -1,11 +1,12 @@
 import "./App.css";
-import Header from "./Header";
+import Dictionary from "./Dictionary";
 
 export default function App() {
   return (
-    <div className="App">
+    <div className="App-container">
       <div className="container">
-        <Header />
+        <Dictionary />
+        <footer>Coded by Marine Simon</footer>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./Header";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div className="container">
+        <Header />
+      </div>
     </div>
   );
 }
-
-export default App;

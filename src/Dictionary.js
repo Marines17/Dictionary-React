@@ -5,9 +5,10 @@ import Results from "./Results";
 
 export default function Dictionary() {
   let [keyword, setKeyword] = useState("");
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
+    setResults(response.data[0]);
   }
 
   function search(event) {
@@ -23,7 +24,7 @@ export default function Dictionary() {
 
   return (
     <div>
-      <div className="Dictionary">
+      <div className="Dictionary Heading">
         <h1 className="typing">Dictionary</h1>
         <form onSubmit={search}>
           <input
@@ -34,7 +35,7 @@ export default function Dictionary() {
         </form>
       </div>
       <div className="Dictionary">
-        <Results />
+        <Results results={results} />
       </div>
     </div>
   );

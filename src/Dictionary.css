@@ -1,4 +1,5 @@
 .Dictionary {
+  display: block;
   margin: 100px auto;
   background-color: #f0e2cc;
   padding: 40px;
@@ -52,10 +53,26 @@ input {
   }
 }
 
-@media (max-width: 771px) {
+@media (max-width: 700px) {
   .Dictionary {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 10px auto;
+    max-width: 90%;
+    min-width: 90%;
+    box-shadow: none;
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 50px;
+    margin: 0 auto;
+    padding-left: 0;
+    animation: none;
+    border-right: none;
+  }
+  input {
+    margin: 0 auto;
+    min-width: 100px;
+    max-width: 200px;
   }
 }

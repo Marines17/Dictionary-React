@@ -1,19 +1,15 @@
 .Dictionary {
+  margin: 100px auto;
   background-color: #f0e2cc;
-  width: 897px;
-  height: 492px;
+  padding: 40px;
   border-radius: 47px;
-  padding-top: 100px;
-  margin: 0 auto;
-  margin-top: 127px;
-}
-
-.Heading {
-  box-shadow: 70px 70px 0px #f0e2cc79;
+  max-width: 800px;
+  min-width: 700px;
+  box-shadow: 60px 60px 0px #f0e2cc79;
 }
 
 h1 {
-  font-size: 110px;
+  font-size: 95px;
   color: #464545;
   padding-left: 70px;
   border-right: solid 4px #000000;

@@ -34,7 +34,7 @@ export default function Dictionary() {
           />
         </form>
       </div>
-      <div className="Dictionary">
+      <div>
         <Results results={results} />
       </div>
     </div>

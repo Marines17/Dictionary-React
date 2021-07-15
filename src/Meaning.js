@@ -4,13 +4,13 @@ export default function Meaning(props) {
   console.log(props.meaning);
   return (
     <div className="Meaning">
-      <h3>{props.meaning.partOfSpeech}</h3>
+      <h3 className="text-capitalize ">{props.meaning.partOfSpeech}</h3>
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <p>{definition.definition}</p>
+            <p className="text-capitalize">{definition.definition}</p>
             <p>
-              <em>{definition.example}</em>
+              <em className="text-capitalize">{definition.example}</em>
             </p>
           </div>
         );

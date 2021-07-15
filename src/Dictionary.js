@@ -9,6 +9,7 @@ export default function Dictionary() {
 
   function handleResponse(response) {
     setResults(response.data[0]);
+    console.log(response.data);
   }
 
   function search(event) {
@@ -24,8 +25,9 @@ export default function Dictionary() {
 
   return (
     <div>
-      <div className="Dictionary Heading">
+      <div className="Dictionary">
         <h1 className="typing">Dictionary</h1>
+        <br />
         <form onSubmit={search}>
           <input
             type="search"

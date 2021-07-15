@@ -12,6 +12,7 @@ h1 {
   font-size: 95px;
   color: #464545;
   padding-left: 70px;
+  margin-bottom: 0;
   border-right: solid 4px #000000;
   white-space: nowrap;
   overflow: hidden;
@@ -20,7 +21,7 @@ h1 {
 }
 
 input {
-  margin-top: 25px;
+  margin-top: 0;
   margin-left: 71px;
   margin-bottom: 25px;
   background: rgba(196, 196, 196, 0.77);
@@ -48,5 +49,13 @@ input {
   }
   to {
     border-right-color: transparent;
+  }
+}
+
+@media (max-width: 771px) {
+  .Dictionary {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
   }
 }

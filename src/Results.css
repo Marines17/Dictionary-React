@@ -1,26 +1,11 @@
 h2 {
-  margin: 150px auto;
-  margin-bottom: 80px;
+  margin: 80px auto;
   background-color: #f0e2cc79;
   padding: 40px;
   border-radius: 47px;
   max-width: 800px;
-  min-width: 800px;
-  font-size: 60px;
+  min-width: 700px;
+  margin-bottom: 80px;
+  font-size: 50px;
   color: #464545;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: animated-text 4s steps(29, end) 1s 1 normal both,
-    animated-cursor 600ms steps(29, end) infinite;
-}
-
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
-
-@keyframes animated-text {
-  from {
-    width: 0;
-  }
-  to {
-    width: 580px;
-  }
 }

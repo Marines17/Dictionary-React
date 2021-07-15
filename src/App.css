@@ -1,9 +1,6 @@
-footer {
-  text-align: center;
-  margin: 100px 0;
+.App-container {
+  font-family: uchen;
 }
 
-.App-container {
-  margin: 30px;
-  font-family: uchen;
+@media (max-width: 600px) {
 }

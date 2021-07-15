@@ -9,3 +9,14 @@ h2 {
   font-size: 50px;
   color: #464545;
 }
+
+@media (max-width: 790px) {
+  h2 {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    min-width: 90%;
+    padding: 30px;
+    font-size: 35px;
+  }
+}

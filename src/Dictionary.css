@@ -53,10 +53,10 @@ input {
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 790px) {
   .Dictionary {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 90%;
     min-width: 90%;
     box-shadow: none;
@@ -64,13 +64,15 @@ input {
   }
 
   h1 {
-    font-size: 50px;
+    text-align: center;
+    font-size: 48px;
     margin: 0 auto;
     padding-left: 0;
     animation: none;
     border-right: none;
   }
   input {
+    display: block;
     margin: 0 auto;
     min-width: 100px;
     max-width: 200px;

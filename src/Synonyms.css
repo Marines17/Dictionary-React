@@ -3,6 +3,6 @@
   color: #46454593;
 }
 
-.Synonyms::first-letter {
+span::first-letter {
   text-transform: capitalize;
 }

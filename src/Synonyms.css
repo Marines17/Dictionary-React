@@ -1,5 +1,6 @@
 .Synonyms {
-  font-size: smaller;
+  font-size: 15px;
+  color: #46454593;
 }
 
 .Synonyms::first-letter {

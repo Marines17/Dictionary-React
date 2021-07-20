@@ -7,10 +7,6 @@
   min-width: 700px;
 }
 
-.Meaning::first-letter {
-  text-transform: capitalize;
-}
-
 h3 {
   font-size: 50px;
   color: #464545;
@@ -18,11 +14,16 @@ h3 {
 
 p {
   font-size: 20px;
-  color: #464545bf;
+  color: #464545;
+}
+
+p::first-letter {
+  text-transform: capitalize;
 }
 
 .example {
   font-style: italic;
+  font-size: 17px;
 }
 
 @media (max-width: 790px) {

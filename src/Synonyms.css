@@ -1,0 +1,7 @@
+.Synonyms {
+  font-size: smaller;
+}
+
+.Synonyms::first-letter {
+  text-transform: capitalize;
+}

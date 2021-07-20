@@ -1,0 +1,11 @@
+.phoneticlink {
+  font-size: 36px;
+  line-height: 1em;
+  color: #464545c2;
+}
+
+@media (max-width: 790px) {
+  .phoneticlink {
+    font-size: 24px;
+  }
+}

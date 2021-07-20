@@ -4,6 +4,10 @@
   color: #464545c2;
 }
 
+.phoneticlink:hover {
+  color: #f0e1cb;
+}
+
 @media (max-width: 790px) {
   .phoneticlink {
     font-size: 24px;

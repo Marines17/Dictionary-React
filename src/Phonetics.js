@@ -10,6 +10,7 @@ export default function Phonetics(props) {
         target="_blank"
         rel="noreferrer"
       >
+        <i class="fas fa-headphones"></i>
         {props.phonetics.text}
       </a>
     </div>
